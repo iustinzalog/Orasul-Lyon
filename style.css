@@ -39,6 +39,17 @@ header a {
   transition: 0.2s ease-in-out;
   padding: 0.3em;
 }
+.gamma a {
+  text-decoration: none;
+  user-select: none;
+  color: #3272d9;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+}
+.gamma a:hover {
+  cursor: pointer;
+  color: #1451b5;
+}
 input {
   display: none;
 }
